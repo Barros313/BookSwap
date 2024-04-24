@@ -1,0 +1,14 @@
+/* 
+
+Botão cadastro está a 276px do fim da página
+
+
+*/
+
+body {
+    background-color: #3498DB;   
+}
+
+.login-container {
+    bottom: 30%;
+}
