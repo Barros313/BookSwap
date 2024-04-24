@@ -18,7 +18,7 @@ Branco: #FFFFFF */
 .bottom-navbar-icon {
     float: left;
     display: block;
-    /* color: #F2F2F2; */
+    color: #000;
     justify-content: space-between;
     text-align: center;
     padding: 14px 16px;
