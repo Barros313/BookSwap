@@ -1,0 +1,13 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #3498DB;
+    display: flex;
+    justify-content: center;
+  }
