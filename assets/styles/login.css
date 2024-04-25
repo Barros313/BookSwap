@@ -40,8 +40,6 @@
 
 #login-option-box {
 
-    height
-
     label {
         color: black;
         font-size: 20px;
@@ -93,9 +91,9 @@
     font-family: Istok Web;
     font-weight: 400;
     word-wrap: break-word;
-  }
+}
 
-  .applogo-container {
-    width: 200px;
-    height: 50px;
-  }
+.applogo-container {
+width: 200px;
+height: 50px;
+}
