@@ -24,3 +24,8 @@ body {
 .logopage {
     background: #3498DB;
 }
+
+.publish {
+    background: #fff;
+    border: 5px solid #333;
+}
