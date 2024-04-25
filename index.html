@@ -1,46 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookSwap</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    <link rel="stylesheet" href="assets/styles/navbar.css">
-    <link rel="stylesheet" href="assets/styles/body.css">
 
+    <link rel="stylesheet" href="assets/styles/applogo.css">
 
+    <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
-    <header class="app-header">
-
-        <i class="app-logo"> [App logo] </i>
-
-        <i class="fa-solid fa-gear"></i>
-
-    </header>
-
-    <div class="pages">
-
-        <iframe src="pages/home.html"></iframe>
-
-    </div>
-
-    <footer class="bottom-navbar">
-
-        <a class="fa-solid fa-house bottom-navbar-icon" 
-        href="pages/home.html" id="navbar-home-button"></a>
-
-        <a class="fa-solid fa-magnifying-glass bottom-navbar-icon" 
-        href="pages/search.html" id="navbar-search-button"></a>
-
-        <a class="fa-solid fa-user bottom-navbar-icon" 
-        href="pages/profile.html" id="navbar-profile-button"></a>
-
-    </footer>
-
-    <script src="https://kit.fontawesome.com/9c4cfc6bbc.js" crossorigin="anonymous"></script>
-    <script src="assets/scripts/navbar.js"></script>
-
+    <body>
+        <div class="main">
+          <h1 class="bookswap"> BookSwap </h1>
+          <img class="applogo" 
+          id="bookswapLogo" 
+          src="../img/applogo-min.png"/>
+          <div class="applogo-container"  id="login-container">
+            <button class="applogo-button" id="login-button"></button>
+            <span class="button-text" id="login-text"> Login </span>
+          </div>
+          <div class="applogo-container" id="sign-in-container">
+            <div class="applogo-button" id="sign-in-button"></div>
+            <div class="button=text" id="sign-in-text">Cadastro</div>
+          </div>
+        </div>
+      </body>
 </body>
 </html>
