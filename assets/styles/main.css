@@ -1,14 +1,26 @@
-* {
-    padding: 0%;
-    margin: 0%;
-    background-color: #3498DB;
+body {
+    margin: 0 50px;
+    overflow: hidden;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .main {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+    width: 360px;
+    height: 800px;
+    border: 5px solid #fff;
+    border-radius: 12px;
+    padding: 15px;
+    overflow: auto;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.logopage {
     background: #3498DB;
-    display: flex;
-    justify-content: center;
   }

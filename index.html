@@ -11,20 +11,34 @@
 </head>
 <body>
     <body>
-        <div class="main">
+        <div class="main logopage">
+
           <h1 class="bookswap"> BookSwap </h1>
-          <img class="applogo" 
+
+          <img class="applogo-img" 
           id="bookswapLogo" 
           src="../img/applogo-min.png"/>
+
           <div class="applogo-container"  id="login-container">
-            <button class="applogo-button" id="login-button"></button>
-            <span class="button-text" id="login-text"> Login </span>
+            <button class="applogo-button" id="login-button"> Login </button>
           </div>
+
           <div class="applogo-container" id="sign-in-container">
-            <div class="applogo-button" id="sign-in-button"></div>
-            <div class="button=text" id="sign-in-text">Cadastro</div>
+            <button class="applogo-button" id="sign-in-button"> Cadastro </button>
           </div>
+
         </div>
+
+        <script>
+          document.getElementById('login-button').addEventListener("click", () => {
+            window.location.href = "pages/login/login.html";
+          });
+          document.getElementById('sign-in-button').addEventListener("click", () => {
+            window.location.href = 'pages/login/sign-in.html';
+          });
+
+        </script>
+
       </body>
 </body>
 </html>
