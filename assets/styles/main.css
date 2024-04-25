@@ -21,11 +21,11 @@ body {
     align-items: center;
 }
 
-.logopage {
+.logopage, .publish {
     background: #3498DB;
 }
 
-.publish {
+/* .publish {
     background: #fff;
     border: 5px solid #333;
-}
+} */

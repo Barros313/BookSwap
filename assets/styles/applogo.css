@@ -29,7 +29,7 @@
   margin: 0;
 
   justify-self: center;
-  width: 180px;
+  width: fit-content;
   height: 50px;
   color: black;
   font-size: 40px;

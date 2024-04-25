@@ -1,5 +1,11 @@
 .publish-header {
-    left: 0px;
-    top: 0px;
-    background: #3498db;
+    align-self: flex-start;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.publish-header h1 {
+    
 }
