@@ -7,34 +7,42 @@
 
     <link rel="stylesheet" href="/assets/styles/main.css">
     <link rel="stylesheet" href="/assets/styles/login.css">
+
 </head>
 <body>
-    <div class="Login">
-        <div class="PasswordInputContainer">
-            <div class="PasswordBox"></div>
-            <div class="Senha">Senha:</div>
+    <div class="main logopage">
+        
+        <img class="BookswapIcon" src="/img/applogo-min.png"/>
+
+        <div class="email-container">
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" class="input-box"></input>
         </div>
-        <div class="EmailInputContainer">
-            <div class="EmailBox"></div>
-            <div class="EMail">E-mail:</div>
+
+        <div class="password-container">
+            <label for="password"> Senha: </label>
+            <input type="password" id="password" class="input-box"></input>
         </div>
-        <div class="Bookswap">BookSwap</div>
-        <div class="LoginOptionsContainer">
-            <div class="ConectSeCom">Conecte-se com:</div>
-            <div class="OptionsContainer">
-                <div class="OptionsBox"></div>
-                <div class="OptionsIcons">
-                    <img class="GoogleIcon" src="https://via.placeholder.com/45x49" />
-                    <img class="InstagramIcon" src="https://via.placeholder.com/45x49" />
-                    <img class="FacebookIcon" src="https://via.placeholder.com/45x49" />
+
+        <div id="login-option-box">
+
+            <label for="option-container">Conecte-se com:</label>
+
+            <div id="option-container" class="options-container">
+                <div class="options-icons">
+                    <img id="google-icon" src="/img/login-options/google-icon-min.png" />
+                    <img id="instagram-icon" src="/img/login-options/instagram-icon-min.png" />
+                    <img id="facebook-icon" src="/img/login-options/facebook-icon-min.png" />
                 </div>
             </div>
         </div>
-        <img class="BookswapIcon" src="https://via.placeholder.com/175x158" />
-        <div class="LoginButton">
-            <div class="LoginBox"></div>
-            <div class="LoginText">Login</div>
+
+
+        <div class="applogo-container"  id="login-container">
+            <button class="applogo-button" id="login-button"> Login </button>
         </div>
+
+        <h1 class="bookswap"> BookSwap </h1>
     </div>
 </body>
 </html>

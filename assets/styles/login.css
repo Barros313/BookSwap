@@ -1,32 +1,10 @@
-.Login {
-    width: 428px;
-    height: 926px;
-    position: relative;
-    background: #3498DB;
-}
 
-.PasswordInputContainer {
-    width: 376px;
-    height: 124px;
-    left: 15px;
-    top: 337px;
-    position: absolute;
-}
-
-.PasswordBox {
+.input-box {
     width: 350px;
     height: 55px;
-    left: 26px;
-    top: 0px;
-    position: absolute;
     background: #D9D9D9;
     border-radius: 30px;
-}
-
-.Senha {
-    left: 0px;
-    top: 95px;
-    position: absolute;
+    
     color: black;
     font-size: 20px;
     font-family: Istok Web;
@@ -34,41 +12,14 @@
     word-wrap: break-word;
 }
 
-.EmailInputContainer {
-    width: 377px;
-    height: 204px;
-    left: 14px;
-    top: 308px;
-    position: absolute;
+.password-container, .email-container {
+    width: 376px;
+    height: 124px;
 }
 
-.EmailBox {
-    width: 350px;
-    height: 51px;
-    left: 27px;
-    top: 153px;
-    position: absolute;
-    background: #D9D9D9;
-    border-radius: 30px;
-}
-
-.EMail {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: Istok Web;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-.Bookswap {
+.bookswap-label {
     width: 217px;
     height: 50px;
-    left: 119px;
-    top: 815px;
-    position: absolute;
     color: black;
     font-size: 40px;
     font-family: Kavoon;
@@ -76,106 +27,76 @@
     word-wrap: break-word;
 }
 
-.LoginOptionsContainer {
-    height: 117px;
-    left: 95px;
-    top: 659px;
-    position: absolute;
-}
-
-.ConectSeCom {
-    left: 43px;
-    top: 0px;
-    position: absolute;
+.bookswap {
+    margin: 0;
+    justify-self: center;
+    width: 180px;
+    height: 50px;
     color: black;
-    font-size: 20px;
-    font-family: Istok Web;
+    font-size: 40px;
+    font-family: Kavoon;
     font-weight: 400;
     word-wrap: break-word;
+  }
+
+#login-option-box {
+
+    height: 117px;
+
+    label {
+        color: black;
+        font-size: 20px;
+        font-family: Istok Web;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
 }
 
-.OptionsContainer {
+.options-container {
     width: 238px;
     height: 88px;
-    left: 0px;
-    top: 29px;
-    position: absolute;
-}
-
-.OptionsBox {
-    width: 238px;
-    height: 88px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
     background: #D9D9D9;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.OptionsIcons {
-    width: 197px;
-    height: 49px;
-    left: 20px;
-    top: 19px;
-    position: absolute;
+.options-icons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.OptionsIcons img {
+.options-icons img {
     width: 45px;
     height: 49px;
-    position: absolute;
     border-radius: 100px;
-}
-
-.GoogleIcon {
-    left: 0px;
-}
-
-.InstagramIcon {
-    left: 76px;
-}
-
-.FacebookIcon {
-    left: 152px;
 }
 
 .BookswapIcon {
     width: 175px;
     height: 158px;
-    left: 128px;
-    top: 126px;
-    position: absolute;
     border-radius: 100px;
     border: 1px #454545 solid;
 }
 
-.LoginButton {
+.applogo-button {
     width: 200px;
     height: 50px;
-    left: 112px;
-    top: 555px;
-    position: absolute;
-}
-
-.LoginBox {
-    width: 200px;
-    height: 50px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
     background: #D9D9D9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     border: 1px rgba(0, 0, 0, 0.20) solid;
-}
-
-.LoginText {
-    left: 75px;
-    top: 10px;
-    position: absolute;
+  
     color: rgba(0, 0, 0, 0.92);
     font-size: 20px;
     font-family: Istok Web;
     font-weight: 400;
     word-wrap: break-word;
-}
+  }
+
+  .applogo-container {
+    width: 200px;
+    height: 50px;
+  }
