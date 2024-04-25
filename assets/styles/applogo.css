@@ -1,24 +1,4 @@
-* {
-    padding: 0%;
-    margin: 0%;
-}
 
-.AppLogo {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    background: #3498DB;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* .TextVariant3 {
-    width: 82px;
-    height: 30px;
-    left: 185px;
-    top: 40px;
-    position: absolute;
-  } */  
   
   .BotOLogin {
     width: 200px;
