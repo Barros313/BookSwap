@@ -1,0 +1,63 @@
+.main {
+    background-color: #3498DB;
+    position: relative;
+
+    display: grid;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: 5%;
+    justify-content: space-between;
+    top: 1%;
+}
+
+.header i {
+    font-size: 24px;
+}
+
+.home {
+    overflow: scroll;
+    height: fit-content;
+    justify-content: left;
+}
+
+.home h1 {
+    font-size: large;
+    font-family: Istok Web;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.books-container {
+    display: flex;
+    gap: 20px;
+}
+
+.books {
+    background: #fff;
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.footer {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    height: 10%;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer.navbar {
+    cursor: pointer;
+    font-size: 24px;
+}

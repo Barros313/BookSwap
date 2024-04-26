@@ -11,6 +11,12 @@
 
 
     <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/home.css">
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,22 +27,22 @@
     <div class="main">
         <div class="header">
             <input type="text" value="Pesquisar títulos">
-            <i id="header-search-button"> [Search Button] </i>
+            <i class="fa-solid fa-magnifying-glass"  id="header-search-button">  </i>
         </div>
 
         <div class="home">
 
+            <h1> Recomendados </h1>
             <div class="categories" id="recommended">
-                <h1> Recomendados </h1>
                 <div class="books-container">
 
                     <div class="book">
-                        <p> [imagem]</p>
+                        <img id="img1" src="../img/home/img1.png"></img>
                         <p> Troco 5 livros </p>
                         <p> 3,7km </p>
                     </div>
                     <div class="book">
-                        <p> [imagem] </p>
+                        <img id="img2" src="../img/home/img2.png"></img>
                         <p> Troco livros </p>
                         <p> 5,5km </p>
                     </div>
@@ -44,31 +50,12 @@
                 </div>
             </div>
 
-            <div class="categories" id="near-you">
-                <h1> Perto de Você </h1>
-                <div class="books-container">
-
-                    <div class="book">
-                        <p> [imagem] </p>
-                        <p> O que me faz pular </p>
-                        <p> 2,5km </p>
-                    </div>
-
-                    <div class="book">
-                        <p> [imagem] </p>
-                        <p> Nado Livre </p>
-                        <p> 1,6km </p>
-                    </div>
-
-                </div>
-            </div>
-
+            <h1> Melhores Avaliados </h1>
             <div class="categories" id="best-rated">
-                <h1> Melhores Avaliados </h1>
                 <div class="books-container">
                     
                     <div class="book">
-                        <p> [imagem] </p>
+                        <img id="img5" src="../img/home/img5.png"></img>
                         <p> Coleção 15 livros </p>
                         <p> 3,9km </p>
                     </div>
@@ -79,16 +66,17 @@
         </div>
 
         <div class="footer navbar">
-            <i id="navbar-home"> [Home] </i>
-            <i id="navbar-publish"> [Publish] </i>
-            <i id="navbar-chat"> [Chat] </i>
-            <i id="navbar-profile"> [Profile] </i>
-            <i id="navbar-config"> [Config] </i>
+            <i class="fa-solid fa-house" id="navbar-home"></i>
+            <i class="fa-solid fa-upload" id="navbar-publish"> </i>
+            <i class="fa-solid fa-comments" id="navbar-chat"> </i>
+            <i class="fa-solid fa-user" id="navbar-profile"> </i>
+            <i class="fa-solid fa-gear" id="navbar-config"> </i>
         </div>
 
     </div>
 
     <script src="../assets/scripts/home.js"></script>   
+    <script src="https://kit.fontawesome.com/9c4cfc6bbc.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
