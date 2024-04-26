@@ -11,10 +11,10 @@ signinForm.addEventListener("submit", (e) => {
     console.log("Sign in button pressed.");
     e.preventDefault(); // Prevent form submission
 
-    formValidation();
+    signinFormValidation();
 });
 
-const formValidation = () => {
+const signinFormValidation = () => {
     if (password.value !== confirmPassword.value) {
         console.log("Failure, passwords input are different");
         alert("As senhas precisam ser iguais!");
