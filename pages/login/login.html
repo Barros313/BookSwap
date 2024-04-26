@@ -22,37 +22,43 @@
         
         <img class="BookswapIcon" src="../../img/applogo-min.png"/>
 
-        <div class="email-container">
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" class="input-box"></input>
-        </div>
+        <form id="default-login">
 
-        <div class="password-container">
-            <label for="password"> Senha: </label>
-            <input type="password" id="password" class="input-box"></input>
-        </div>
+            <div class="email-container">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" class="input-box" required></input>
+            </div>
+    
+            <div class="password-container">
+                <label for="password"> Senha: </label>
+                <input type="password" id="password" class="input-box" required></input>
+            </div>
+    
+            <div class="applogo-container"  id="login-container">
+                <button type="submit" class="applogo-button" id="login-button"> Login </button>
+            </div>
+
+        </form>
 
         <div id="login-option-box">
 
-            <label for="option-container"> Conecte-se com: </label>
+            <p id="option-container-text"> Conecte-se com: </p>
 
             <div id="option-container" class="options-container">
                 <div class="options-icons">
-                    <img id="google-icon" src="../../img/login-options/google-icon-min.png" />
-                    <img id="instagram-icon" src="../../img/login-options/instagram-icon-min.png" />
-                    <img id="facebook-icon" src="../../img/login-options/facebook-icon-min.png" />
+                    <img class="login-icon" id="google-icon" src="../../img/login-options/google-icon-min.png" />
+                    <img class="login-icon" id="instagram-icon" src="../../img/login-options/instagram-icon-min.png" />
+                    <img class="login-icon" id="facebook-icon" src="../../img/login-options/facebook-icon-min.png" />
                 </div>
             </div>
 
         </div>
 
-
-        <div class="applogo-container"  id="login-container">
-            <button class="applogo-button" id="login-button"> Login </button>
-        </div>
-
         <h1 class="bookswap"> BookSwap </h1>
 
     </div>
+
+    <script src="../../assets/scripts/login.js"></script>
+
 </body>
 </html>

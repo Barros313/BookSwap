@@ -1,10 +1,10 @@
-const loginButton = document.getElementById('login-button');
-const signInButton = document.getElementById('sign-in-button');
+const loginPage = document.getElementById('login-button');
+const signInPage = document.getElementById('sign-in-button');
 
-loginButton.addEventListener("click", () => {
+loginPage.addEventListener("click", () => {
     window.location.href = "pages/login/login.html";
 });
 
-signInButton.addEventListener("click", () => {
+signInPage.addEventListener("click", () => {
     window.location.href = 'pages/login/signin.html';
 });
