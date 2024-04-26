@@ -1,0 +1,36 @@
+.main {
+    justify-content: center;
+    background-color: #3498DB;
+    position: relative;
+    place-items: center;
+}
+
+.signin-header {
+    position: absolute;
+    top: 0%;
+
+    font-family: Kavoon;
+}
+
+.form-container {
+    width: 100%;
+    font-family: Istok Web;
+}
+
+.form-container input {
+    border-radius: 12px;
+    width: 100%;
+}
+
+#signin-button {
+    position: absolute;
+    bottom: 10%;
+    width: 40%;
+    height: 7%;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 12px;
+
+    background-color: #fff;
+}
