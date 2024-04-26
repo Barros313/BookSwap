@@ -4,10 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookSwap - Home</title>
+
+    <link rel="stylesheet" href="../assets/styles/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kavoon&display=swap" rel="stylesheet">
+
 </head>
-<body style="background-color: red;">
-    
-    <h1> Home </h1>
+<body>
+    <div class="main">
+        <div class="header">
+            <input type="text" value="Pesquisar títulos">
+            <i> [Search Button] </i>
+        </div>
+
+        <div class="home">
+
+            <div class="categories" id="recommended">
+                <h1> Recomendados </h1>
+                <div class="books-container">
+
+                    <div class="book">
+                        <p> [imagem]</p>
+                        <p> Troco 5 livros </p>
+                        <p> 3,7km </p>
+                    </div>
+                    <div class="book">
+                        <p> [imagem] </p>
+                        <p> Troco livros </p>
+                        <p> 5,5km </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="categories" id="near-you">
+                <h1> Perto de Você </h1>
+                <div class="books-container">
+
+                    <div class="book">
+                        <p> [imagem] </p>
+                        <p> O que me faz pular </p>
+                        <p> 2,5km </p>
+                    </div>
+
+                    <div class="book">
+                        <p> [imagem] </p>
+                        <p> Nado Livre </p>
+                        <p> 1,6km </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="categories" id="best-rated">
+                <h1> Melhores Avaliados </h1>
+                <div class="books-container">
+                    
+                    <div class="book">
+                        <p> [imagem] </p>
+                        <p> Coleção 15 livros </p>
+                        <p> 3,9km </p>
+                    </div>
+
+                </div>     
+            </div>
+
+        </div>
+
+        <div class="footer navbar">
+            <i id="navbar-home"> [Home] </i>
+            <i id="navbar-publish"> [Publish] </i>
+            <i id="navbar-chat"> [Chat] </i>
+            <i id="navbar-profile"> [Profile] </i>
+            <i id="navbar-config"> [Config] </i>
+        </div>
+
+    </div>
+
+    <script src="../assets/scripts/home.js"></script>   
 
 </body>
 </html>
