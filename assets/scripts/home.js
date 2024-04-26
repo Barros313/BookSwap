@@ -3,6 +3,7 @@ const publishNavbar = document.getElementById('navbar-publish');
 const chatNavbar = document.getElementById('navbar-chat');
 const profileNavbar = document.getElementById('navbar-profile');
 const configNavbar = document.getElementById('navbar-config');
+const searchHeader = document.getElementById('header-search-button');
 
 homeNavbar.addEventListener("click", () => {
     window.location.href = "home.html";
@@ -23,3 +24,7 @@ profileNavbar.addEventListener("click", () => {
 configNavbar.addEventListener("click", () => {
     window.location.href = "config.html";
 });
+
+searchHeader.addEventListener("click", () => {
+    window.location.href = "search.html";  
+})
