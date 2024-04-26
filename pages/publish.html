@@ -4,60 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+
     <title>Your Page Title</title>
 
     <link rel="stylesheet" href="../assets/styles/main.css">
     <!-- <link rel="stylesheet" href="../assets/styles/publish.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="main">
 
-        <div class="publish-header">
-            <button id="publish-back-button" class="button back publish"> [Back] </button>
-            <h1> Anunciar </div>
+        <div class="header publish">
+            <button class="button back publish" id="publish-back-button"> [Back] </button>
+            <h1>Publish</h1>
         </div>
 
-        <div class="add-photo-container">
-            <div class="add-photo-box">
-                <img id="camera-icon"></img>
-                <label for="camera-icon"> Publicar fotos </label>
+        <div>
+
+            <div class="container image" id="image-container">
+                <button id="add-image-button" class="button add-image"> Adicionar Imagem </button>
+                <input type="file" accept="image/*" id="image=input" style="display: none;">
+                <br>
+                <img id="image-preview" style="max-width: 100%; display: none;">
             </div>
-        </div>
+            
+            <form class="forms" id="publish-form">
+                
 
-        <div class="publish-container">
-            <button class="publish-button"> Publicar anúncio </button>
-        </div>
+                <label for="title"> Título </label>
+                <input id="title" class="input-box" type="text" required>
+                <br>
+                <label for="genre"> Gênero </label>
+                <input id="genre" class="input-box" type="text" required>
+                <br>
+                <label for="description"> Descrição </label>
+                <input id="description" class="input-box" type="text">
+                <br>
 
-        <div class="input-container">
+                <button type="submit" id="publish-button" class="button submit"> Publicar anúncio </button>
 
-            <div class="title-container">
-                <label for="title-input">Título</label>
-                <button id="title-input"></button>
-           </div>
-
-           <div class="gender-container">
-               <label for="gender-input">Gênero Literário</label>
-               <button id="gender-input"></button>
-           </div>
-
-            <div class="description-container">
-                <label for="description-input">Descrição</button>
-                <button id="description-input"></button>
-            </div>
-
-            <div class="address-container">
-                <label for="address-input">Endereço</label>
-                <button id="address-input"></button>
-            </div>
+            </form>
 
         </div>
+
     </div>
 
     <script src="../assets/scripts/publish.js"></script>
