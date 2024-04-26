@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BookSwap - Sign In</title>
+
+    <link rel="stylesheet" href="../../assets/styles/signin.css">
+    <link rel="stylesheet" href="../../assets/styles/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kavoon&display=swap"
+    rel="stylesheet">
+
 </head>
 <body>
-    
+    <div class="main">
+
+        <div class="signin-header">
+            <h1> Cadastro </h1>
+        </div>
+
+        <form id="signin-form" class="form-container">
+
+            <label for="name"> Nome: </label>
+            <input type="text" id="name" autocomplete="name" required>
+            <br>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" size="30" autocomplete="email" required>
+            <br>
+            <label for="password"> Senha: </label>
+            <input type="password" id="password" autocomplete="new-password" required>
+            <br>
+            <label for="password"> Confirmar Senha: </label>
+            <input type="password" id="confirm-password" autocomplete="current-password" required>
+            <br>
+            <label for="address"> Endereço: </label>
+            <input type="text" id="address" autocomplete="address-level1">
+            <br>
+            <button type="submit" id="signin-button"> Cadastrar </button>
+        </form>
+    </div>
+
+    <script src="../../assets/scripts/signin.js"></script>
+
 </body>
 </html>
