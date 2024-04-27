@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; 
+    transition: background-color 0.3s; 
+}
+
+body.dark-mode {
+    background-color: #333; 
+}
+
+.Settings {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.SettingItem {
+    margin-bottom: 20px;
+}
+
+.SettingButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SettingButton:hover {
+    background-color: #0056b3;
+}
+
+.SettingButton i {
+    margin-right: 10px;
+}

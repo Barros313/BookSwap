@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookSwap - Configuration</title>
+    <title>BookSwap - Configurações</title>
 
+    
+    <!-- Biblioteca Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="../assets/styles/config.css">
     <link rel="stylesheet" href="../assets/styles/main.css">
-
 </head>
 <body>
-    <div class="main">
-        <button class="button back config" id="config-back-button"> [Back] </button>
-        <h1> Configuration </h1>
+    
+    <div class="Settings">
+        <i class="fa-solid fa-arrow-left back" id="config-back-button"></i>
+        <h2>Configurações</h2>
+        <div class="SettingItem">
+            <button class="SettingButton" id="exit-account"><i class="fas fa-sign-out-alt"></i> Sair da Conta</button>
+        </div>
+        <div class="SettingItem">
+            <button class="SettingButton" id="remove-account"><i class="fas fa-trash-alt"></i> Excluir Conta</button>
+        </div>
     </div>
 
+    <script src="https://kit.fontawesome.com/9c4cfc6bbc.js" crossorigin="anonymous"></script>
     <script src="../assets/scripts/config.js"></script>
 
 </body>
