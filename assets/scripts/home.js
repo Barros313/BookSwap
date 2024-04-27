@@ -13,10 +13,6 @@ publishNavbar.addEventListener("click", () => {
     window.location.href = "publish.html";
 });
 
-chatNavbar.addEventListener("click", () => {
-    window.location.href = "chat.html";
-});
-
 profileNavbar.addEventListener("click", () => {
     window.location.href = "profile.html";
 });
