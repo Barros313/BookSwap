@@ -5,33 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Your Page Title</title>
+    <title>BookSwap - Publish</title>
 
     <link rel="stylesheet" href="../assets/styles/main.css">
-    <!-- <link rel="stylesheet" href="../assets/styles/publish.css"> -->
+    <link rel="stylesheet" href="../assets/styles/publish.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    />
 
 </head>
 
 <body>
     <div class="main">
 
-        <div class="header publish">
-            <button class="button back publish" id="publish-back-button"> [Back] </button>
+        <div class="header">
+            <i class="fa-solid fa-arrow-left back" id="publish-back-button"></i>
+            <br><br><br>
             <h1>Publish</h1>
         </div>
 
-        <div>
-
-            <div class="container image" id="image-container">
-                <button id="add-image-button" class="button add-image"> Adicionar Imagem </button>
-                <input type="file" accept="image/*" id="image=input" style="display: none;">
-                <br>
-                <img id="image-preview" style="max-width: 100%; display: none;">
-            </div>
+        <div class="container image" id="image-container">
+            <i id="add-image-button" class="fa-solid fa-camera"></i> <p> Adicionar Imagem </p>
+            <input type="file" accept="image/*" id="image=input" style="display: none;">
+            <br>
+            <img id="image-preview" style="max-width: 100%; display: none;">
+        </div>
             
             <form class="forms" id="publish-form">
                 
@@ -50,11 +54,10 @@
 
             </form>
 
-        </div>
-
     </div>
 
     <script src="../assets/scripts/publish.js"></script>
+    <script src="https://kit.fontawesome.com/9c4cfc6bbc.js" crossorigin="anonymous"></script>
 
 </body>
 
