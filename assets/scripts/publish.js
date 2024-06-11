@@ -1,6 +1,7 @@
 const publishBackButton = document.getElementById('publish-back-button');
 const imageContainer = document.getElementById('image-container');
 const addImageButton = document.getElementById('add-image-button');
+const selectImageButton = document.getElementById('select-image-button');
 
 publishBackButton.addEventListener("click", () => {
     window.location.href = "home.html";
