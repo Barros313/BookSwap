@@ -7,6 +7,22 @@ publishBackButton.addEventListener("click", () => {
     window.location.href = "home.html";
 });
 
+selectImageButton.addEventListener('click', (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+
+    reader.onload = () => {
+        const preview  = document.getElementById('image-preview');
+        const image = new Image();
+
+        image.src = reader.result;
+        preview.innerHTML = '';
+        preview.appendChild
+    };
+
+});
+
+
 async function captureImage() {
     try {
         const stream = await navigator.mediaDevices.getUserMedia( { video: true } );
