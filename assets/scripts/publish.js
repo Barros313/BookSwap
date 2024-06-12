@@ -1,12 +1,12 @@
 const publishBackButton = document.getElementById('publish-back-button');
 const imageContainer = document.getElementById('image-container');
 const addImageButton = document.getElementById('add-image-button');
-const selectImageButton = document.getElementById('select-image-button');
+/* const selectImageButton = document.getElementById('select-image-button'); */
 
 publishBackButton.addEventListener("click", () => {
     window.location.href = "home.html";
 });
-
+/*
 selectImageButton.addEventListener('click', (e) => {
     const file = e.target.files[0];
     const reader = new FileReader();
@@ -21,7 +21,7 @@ selectImageButton.addEventListener('click', (e) => {
     };
 
 });
-
+*/
 
 async function captureImage() {
     try {
