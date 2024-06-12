@@ -25,7 +25,10 @@ selectImageButton.addEventListener('click', (e) => {
 
 async function captureImage() {
     try {
-        const stream = await navigator.mediaDevices.getUserMedia( { video: true } );
+        /* const stream = await navigator.mediaDevices.getUserMedia( { video: true } ); */
+        const stream = await navigator.mediaDevices.getUserMedia({ 
+            video: { facingMode: { exact: "environment" } }
+        });
         const videoElement = document.createElement('video');
         imageContainer.appendChild(videoElement);
         videoElement.srcObject = stream;
